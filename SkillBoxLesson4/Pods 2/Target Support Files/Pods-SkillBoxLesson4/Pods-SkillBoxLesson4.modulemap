@@ -1,0 +1,6 @@
+framework module Pods_SkillBoxLesson4 {
+  umbrella header "Pods-SkillBoxLesson4-umbrella.h"
+
+  export *
+  module * { export * }
+}
