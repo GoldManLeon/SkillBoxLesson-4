@@ -1,5 +1,5 @@
 
-import UIKit
+    import UIKit
 
     // MARK: - Protocol
 
@@ -24,6 +24,7 @@ class CThirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         textField.text = text
+        
     }
 
     // MARK: - Touches ended

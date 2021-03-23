@@ -8,8 +8,10 @@ target 'SkillBoxLesson4' do
 
   # Pods for SkillBoxLesson4
 
+pod 'Alamofire'
 pod 'RealmSwift'
 pod 'Realm'
+
 
 
   target 'SkillBoxLesson4Tests' do

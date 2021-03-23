@@ -15,13 +15,15 @@
 		083D74BD25FB56A90081CF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083D74BB25FB56A90081CF0F /* LaunchScreen.storyboard */; };
 		083D74C825FB56AA0081CF0F /* SkillBoxLesson4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D74C725FB56AA0081CF0F /* SkillBoxLesson4Tests.swift */; };
 		083D74D325FB56AA0081CF0F /* SkillBoxLesson4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D74D225FB56AA0081CF0F /* SkillBoxLesson4UITests.swift */; };
-		083D74E525FB57390081CF0F /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D74E425FB57390081CF0F /* AViewController.swift */; };
 		083D74EE25FB58710081CF0F /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D74ED25FB58710081CF0F /* BViewController.swift */; };
 		083D74F625FB58A70081CF0F /* ToDoListitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D74F525FB58A70081CF0F /* ToDoListitem.swift */; };
+		0871BCE72609E93F00F6FB66 /* BlackStarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871BCE62609E93F00F6FB66 /* BlackStarModel.swift */; };
+		0871BCEF2609E99100F6FB66 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871BCEE2609E99100F6FB66 /* TableViewCell.swift */; };
+		0871BCF42609E9ED00F6FB66 /* MVCAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871BCF32609E9ED00F6FB66 /* MVCAViewController.swift */; };
 		08B9427425FB5E890014B0E9 /* CFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9427325FB5E890014B0E9 /* CFirstViewController.swift */; };
 		08B9427C25FB5EA40014B0E9 /* CSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9427B25FB5EA40014B0E9 /* CSecondViewController.swift */; };
 		08B9428425FB5EBB0014B0E9 /* CThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9428325FB5EBB0014B0E9 /* CThirdViewController.swift */; };
-		08B942E625FBBD4F0014B0E9 /* ATestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B942E525FBBD4F0014B0E9 /* ATestViewController.swift */; };
+		08B942E625FBBD4F0014B0E9 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B942E525FBBD4F0014B0E9 /* AViewController.swift */; };
 		08B942EE25FBC36D0014B0E9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B942ED25FBC36D0014B0E9 /* TableViewCell.swift */; };
 		8BDEDAE4EECD66315337C468 /* Pods_SkillBoxLesson4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F7ED9C4ACD8847BF0CE72 /* Pods_SkillBoxLesson4.framework */; };
 		DEA50665E6F4371ACD12CD1F /* Pods_SkillBoxLesson4_SkillBoxLesson4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B46FD4EBDA94AC348A79BC0 /* Pods_SkillBoxLesson4_SkillBoxLesson4UITests.framework */; };
@@ -60,13 +62,15 @@
 		083D74CE25FB56AA0081CF0F /* SkillBoxLesson4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillBoxLesson4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		083D74D225FB56AA0081CF0F /* SkillBoxLesson4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillBoxLesson4UITests.swift; sourceTree = "<group>"; };
 		083D74D425FB56AA0081CF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		083D74E425FB57390081CF0F /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		083D74ED25FB58710081CF0F /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		083D74F525FB58A70081CF0F /* ToDoListitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListitem.swift; sourceTree = "<group>"; };
+		0871BCE62609E93F00F6FB66 /* BlackStarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackStarModel.swift; sourceTree = "<group>"; };
+		0871BCEE2609E99100F6FB66 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0871BCF32609E9ED00F6FB66 /* MVCAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCAViewController.swift; sourceTree = "<group>"; };
 		08B9427325FB5E890014B0E9 /* CFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFirstViewController.swift; sourceTree = "<group>"; };
 		08B9427B25FB5EA40014B0E9 /* CSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSecondViewController.swift; sourceTree = "<group>"; };
 		08B9428325FB5EBB0014B0E9 /* CThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CThirdViewController.swift; sourceTree = "<group>"; };
-		08B942E525FBBD4F0014B0E9 /* ATestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATestViewController.swift; sourceTree = "<group>"; };
+		08B942E525FBBD4F0014B0E9 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		08B942ED25FBC36D0014B0E9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		260795BBD41F2B9AEAC1A828 /* Pods-SkillBoxLesson4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillBoxLesson4Tests.release.xcconfig"; path = "Target Support Files/Pods-SkillBoxLesson4Tests/Pods-SkillBoxLesson4Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4B46FD4EBDA94AC348A79BC0 /* Pods_SkillBoxLesson4_SkillBoxLesson4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillBoxLesson4_SkillBoxLesson4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +111,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080809BC260900620079D25E /* MVCAViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0871BCE52609E92D00F6FB66 /* Model */,
+				0871BCE42609E92700F6FB66 /* View */,
+				0871BCE32609E92000F6FB66 /* Controller */,
+			);
+			path = MVCAViewController;
+			sourceTree = "<group>";
+		};
+		080809BD2609007D0079D25E /* MVCBViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVCBViewController;
+			sourceTree = "<group>";
+		};
+		080809BE2609008E0079D25E /* MVCCViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVCCViewController;
+			sourceTree = "<group>";
+		};
+		080809BF260900B90079D25E /* UsualAViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08B942ED25FBC36D0014B0E9 /* TableViewCell.swift */,
+				08B942E525FBBD4F0014B0E9 /* AViewController.swift */,
+			);
+			path = UsualAViewController;
+			sourceTree = "<group>";
+		};
+		080809C02609010C0079D25E /* UsualViewController */ = {
+			isa = PBXGroup;
+			children = (
+				083D74ED25FB58710081CF0F /* BViewController.swift */,
+				083D74F525FB58A70081CF0F /* ToDoListitem.swift */,
+			);
+			path = UsualViewController;
+			sourceTree = "<group>";
+		};
+		080809C1260901420079D25E /* UsualViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08B9427325FB5E890014B0E9 /* CFirstViewController.swift */,
+				08B9427B25FB5EA40014B0E9 /* CSecondViewController.swift */,
+				08B9428325FB5EBB0014B0E9 /* CThirdViewController.swift */,
+			);
+			path = UsualViewController;
+			sourceTree = "<group>";
+		};
 		083D74A425FB56A80081CF0F = {
 			isa = PBXGroup;
 			children = (
@@ -132,9 +188,9 @@
 		083D74AF25FB56A80081CF0F /* SkillBoxLesson4 */ = {
 			isa = PBXGroup;
 			children = (
-				083D74E325FB57240081CF0F /* AViewController */,
-				083D74EC25FB585C0081CF0F /* BViewController */,
-				083D750225FB5B150081CF0F /* CViewController */,
+				083D74E325FB57240081CF0F /* AViewControllers */,
+				083D74EC25FB585C0081CF0F /* BViewControllers */,
+				083D750225FB5B150081CF0F /* CViewControllers */,
 				083D74B025FB56A80081CF0F /* AppDelegate.swift */,
 				083D74B225FB56A80081CF0F /* SceneDelegate.swift */,
 				083D74B425FB56A80081CF0F /* ViewController.swift */,
@@ -164,33 +220,55 @@
 			path = SkillBoxLesson4UITests;
 			sourceTree = "<group>";
 		};
-		083D74E325FB57240081CF0F /* AViewController */ = {
+		083D74E325FB57240081CF0F /* AViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				083D74E425FB57390081CF0F /* AViewController.swift */,
-				08B942E525FBBD4F0014B0E9 /* ATestViewController.swift */,
-				08B942ED25FBC36D0014B0E9 /* TableViewCell.swift */,
+				080809BF260900B90079D25E /* UsualAViewController */,
+				080809BC260900620079D25E /* MVCAViewController */,
 			);
-			path = AViewController;
+			path = AViewControllers;
 			sourceTree = "<group>";
 		};
-		083D74EC25FB585C0081CF0F /* BViewController */ = {
+		083D74EC25FB585C0081CF0F /* BViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				083D74ED25FB58710081CF0F /* BViewController.swift */,
-				083D74F525FB58A70081CF0F /* ToDoListitem.swift */,
+				080809C02609010C0079D25E /* UsualViewController */,
+				080809BD2609007D0079D25E /* MVCBViewController */,
 			);
-			path = BViewController;
+			path = BViewControllers;
 			sourceTree = "<group>";
 		};
-		083D750225FB5B150081CF0F /* CViewController */ = {
+		083D750225FB5B150081CF0F /* CViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				08B9427325FB5E890014B0E9 /* CFirstViewController.swift */,
-				08B9427B25FB5EA40014B0E9 /* CSecondViewController.swift */,
-				08B9428325FB5EBB0014B0E9 /* CThirdViewController.swift */,
+				080809C1260901420079D25E /* UsualViewController */,
+				080809BE2609008E0079D25E /* MVCCViewController */,
 			);
-			path = CViewController;
+			path = CViewControllers;
+			sourceTree = "<group>";
+		};
+		0871BCE32609E92000F6FB66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0871BCF32609E9ED00F6FB66 /* MVCAViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0871BCE42609E92700F6FB66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0871BCEE2609E99100F6FB66 /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0871BCE52609E92D00F6FB66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0871BCE62609E93F00F6FB66 /* BlackStarModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		3FA68CB9C1F6DB98CAD6C024 /* Pods */ = {
@@ -454,15 +532,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				083D74E525FB57390081CF0F /* AViewController.swift in Sources */,
 				083D74B525FB56A80081CF0F /* ViewController.swift in Sources */,
-				08B942E625FBBD4F0014B0E9 /* ATestViewController.swift in Sources */,
+				0871BCF42609E9ED00F6FB66 /* MVCAViewController.swift in Sources */,
+				08B942E625FBBD4F0014B0E9 /* AViewController.swift in Sources */,
 				08B9427425FB5E890014B0E9 /* CFirstViewController.swift in Sources */,
 				083D74B125FB56A80081CF0F /* AppDelegate.swift in Sources */,
 				08B9427C25FB5EA40014B0E9 /* CSecondViewController.swift in Sources */,
 				08B942EE25FBC36D0014B0E9 /* TableViewCell.swift in Sources */,
 				083D74EE25FB58710081CF0F /* BViewController.swift in Sources */,
+				0871BCE72609E93F00F6FB66 /* BlackStarModel.swift in Sources */,
 				08B9428425FB5EBB0014B0E9 /* CThirdViewController.swift in Sources */,
+				0871BCEF2609E99100F6FB66 /* TableViewCell.swift in Sources */,
 				083D74F625FB58A70081CF0F /* ToDoListitem.swift in Sources */,
 				083D74B325FB56A80081CF0F /* SceneDelegate.swift in Sources */,
 			);

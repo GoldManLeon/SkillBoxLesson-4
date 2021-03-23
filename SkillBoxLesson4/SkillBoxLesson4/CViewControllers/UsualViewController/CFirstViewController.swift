@@ -66,7 +66,7 @@ class CFirstViewController: UIViewController {
     }
 }
 
-// MARK: - Extension
+    // MARK: - Extension
 
 extension CFirstViewController: TextFieldDelegate{
     func bindText(bind: String) {
