@@ -34,7 +34,7 @@ class CFirstViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let ct = segue.destination as? CThirdViewController, segue.identifier == "ct"{
             ct.delegate = self
-                ct.text = numberLabel.text!
+            ct.text = numberLabel.text!
             numberLabel.text = "\(number)"
         }
     }

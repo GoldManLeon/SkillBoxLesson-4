@@ -22,7 +22,6 @@ class CSecondViewController: UIViewController {
     // MARK: - Variables
 
     var textForLabel = ""
-    var delegate: LabelTextDelegate?
 
     // MARK: - Life Cycle
 
