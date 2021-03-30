@@ -17,11 +17,6 @@
 		083D74D325FB56AA0081CF0F /* SkillBoxLesson4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D74D225FB56AA0081CF0F /* SkillBoxLesson4UITests.swift */; };
 		083D74EE25FB58710081CF0F /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D74ED25FB58710081CF0F /* BViewController.swift */; };
 		083D74F625FB58A70081CF0F /* ToDoListitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D74F525FB58A70081CF0F /* ToDoListitem.swift */; };
-		0840AD7C2610E841009FCED9 /* MainViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0840AD7B2610E841009FCED9 /* MainViewModelDelegate.swift */; };
-		0840AD812610E8C0009FCED9 /* MainViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0840AD802610E8C0009FCED9 /* MainViewModelProtocol.swift */; };
-		0840AD862610EA16009FCED9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0840AD852610EA16009FCED9 /* MainViewModel.swift */; };
-		0840AD8B2610EC07009FCED9 /* MainModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0840AD8A2610EC07009FCED9 /* MainModelDelegate.swift */; };
-		0840ADC72610F91E009FCED9 /* MVVMMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0840ADC62610F91E009FCED9 /* MVVMMainViewController.swift */; };
 		086A5348260E13E800B9DFC7 /* MVVMListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A5347260E13E800B9DFC7 /* MVVMListViewController.swift */; };
 		0871BCE72609E93F00F6FB66 /* MVVMListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871BCE62609E93F00F6FB66 /* MVVMListModel.swift */; };
 		0871BCF42609E9ED00F6FB66 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871BCF32609E9ED00F6FB66 /* ListViewModel.swift */; };
@@ -29,8 +24,6 @@
 		08B9427C25FB5EA40014B0E9 /* CSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9427B25FB5EA40014B0E9 /* CSecondViewController.swift */; };
 		08B9428425FB5EBB0014B0E9 /* CThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9428325FB5EBB0014B0E9 /* CThirdViewController.swift */; };
 		08B942E625FBBD4F0014B0E9 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B942E525FBBD4F0014B0E9 /* AViewController.swift */; };
-		08F84AD7260E368700986399 /* MVCBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F84AD6260E368700986399 /* MVCBViewController.swift */; };
-		08F84ADC260E36C700986399 /* MVCBToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F84ADB260E36C700986399 /* MVCBToDoListItem.swift */; };
 		8BDEDAE4EECD66315337C468 /* Pods_SkillBoxLesson4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F7ED9C4ACD8847BF0CE72 /* Pods_SkillBoxLesson4.framework */; };
 		DEA50665E6F4371ACD12CD1F /* Pods_SkillBoxLesson4_SkillBoxLesson4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B46FD4EBDA94AC348A79BC0 /* Pods_SkillBoxLesson4_SkillBoxLesson4UITests.framework */; };
 		E093ACFCEE9AC0AE52EDA374 /* Pods_SkillBoxLesson4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A752FBF8E3E3A076DFE263 /* Pods_SkillBoxLesson4Tests.framework */; };
@@ -70,11 +63,6 @@
 		083D74D425FB56AA0081CF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		083D74ED25FB58710081CF0F /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		083D74F525FB58A70081CF0F /* ToDoListitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListitem.swift; sourceTree = "<group>"; };
-		0840AD7B2610E841009FCED9 /* MainViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelDelegate.swift; sourceTree = "<group>"; };
-		0840AD802610E8C0009FCED9 /* MainViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelProtocol.swift; sourceTree = "<group>"; };
-		0840AD852610EA16009FCED9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		0840AD8A2610EC07009FCED9 /* MainModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModelDelegate.swift; sourceTree = "<group>"; };
-		0840ADC62610F91E009FCED9 /* MVVMMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMMainViewController.swift; sourceTree = "<group>"; };
 		086A5347260E13E800B9DFC7 /* MVVMListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMListViewController.swift; sourceTree = "<group>"; };
 		0871BCE62609E93F00F6FB66 /* MVVMListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMListModel.swift; sourceTree = "<group>"; };
 		0871BCF32609E9ED00F6FB66 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
@@ -82,8 +70,6 @@
 		08B9427B25FB5EA40014B0E9 /* CSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSecondViewController.swift; sourceTree = "<group>"; };
 		08B9428325FB5EBB0014B0E9 /* CThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CThirdViewController.swift; sourceTree = "<group>"; };
 		08B942E525FBBD4F0014B0E9 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
-		08F84AD6260E368700986399 /* MVCBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCBViewController.swift; sourceTree = "<group>"; };
-		08F84ADB260E36C700986399 /* MVCBToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCBToDoListItem.swift; sourceTree = "<group>"; };
 		260795BBD41F2B9AEAC1A828 /* Pods-SkillBoxLesson4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillBoxLesson4Tests.release.xcconfig"; path = "Target Support Files/Pods-SkillBoxLesson4Tests/Pods-SkillBoxLesson4Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4B46FD4EBDA94AC348A79BC0 /* Pods_SkillBoxLesson4_SkillBoxLesson4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillBoxLesson4_SkillBoxLesson4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6080C189FF043E10C9FDC050 /* Pods-SkillBoxLesson4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillBoxLesson4Tests.debug.xcconfig"; path = "Target Support Files/Pods-SkillBoxLesson4Tests/Pods-SkillBoxLesson4Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,25 +117,6 @@
 				0871BCE32609E92000F6FB66 /* ViewModel */,
 			);
 			path = MVVMAViewController;
-			sourceTree = "<group>";
-		};
-		080809BD2609007D0079D25E /* MVVMViewController */ = {
-			isa = PBXGroup;
-			children = (
-				08F84AE4260E373C00986399 /* Model */,
-				08F84AE3260E372E00986399 /* Controller */,
-			);
-			path = MVVMViewController;
-			sourceTree = "<group>";
-		};
-		080809BE2609008E0079D25E /* MVVMViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0840AD782610E7DB009FCED9 /* Model */,
-				0840AD792610E7E7009FCED9 /* View */,
-				0840AD7A2610E805009FCED9 /* ViewModel */,
-			);
-			path = MVVMViewController;
 			sourceTree = "<group>";
 		};
 		080809BF260900B90079D25E /* MVCAViewController */ = {
@@ -249,7 +216,6 @@
 			isa = PBXGroup;
 			children = (
 				080809C02609010C0079D25E /* MVCViewController */,
-				080809BD2609007D0079D25E /* MVVMViewController */,
 			);
 			path = BViewControllers;
 			sourceTree = "<group>";
@@ -258,35 +224,8 @@
 			isa = PBXGroup;
 			children = (
 				080809C1260901420079D25E /* MVCViewContoller */,
-				080809BE2609008E0079D25E /* MVVMViewController */,
 			);
 			path = CViewControllers;
-			sourceTree = "<group>";
-		};
-		0840AD782610E7DB009FCED9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				0840AD8A2610EC07009FCED9 /* MainModelDelegate.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0840AD792610E7E7009FCED9 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				0840ADC62610F91E009FCED9 /* MVVMMainViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		0840AD7A2610E805009FCED9 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				0840AD7B2610E841009FCED9 /* MainViewModelDelegate.swift */,
-				0840AD802610E8C0009FCED9 /* MainViewModelProtocol.swift */,
-				0840AD852610EA16009FCED9 /* MainViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		0871BCE32609E92000F6FB66 /* ViewModel */ = {
@@ -309,22 +248,6 @@
 			isa = PBXGroup;
 			children = (
 				0871BCE62609E93F00F6FB66 /* MVVMListModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		08F84AE3260E372E00986399 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				08F84AD6260E368700986399 /* MVCBViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		08F84AE4260E373C00986399 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				08F84ADB260E36C700986399 /* MVCBToDoListItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -593,22 +516,15 @@
 				0871BCF42609E9ED00F6FB66 /* ListViewModel.swift in Sources */,
 				08B942E625FBBD4F0014B0E9 /* AViewController.swift in Sources */,
 				08B9427425FB5E890014B0E9 /* CFirstViewController.swift in Sources */,
-				08F84ADC260E36C700986399 /* MVCBToDoListItem.swift in Sources */,
 				080C777C2610946200436F70 /* MVCListModel.swift in Sources */,
-				0840ADC72610F91E009FCED9 /* MVVMMainViewController.swift in Sources */,
 				083D74B125FB56A80081CF0F /* AppDelegate.swift in Sources */,
 				08B9427C25FB5EA40014B0E9 /* CSecondViewController.swift in Sources */,
-				08F84AD7260E368700986399 /* MVCBViewController.swift in Sources */,
-				0840AD862610EA16009FCED9 /* MainViewModel.swift in Sources */,
 				086A5348260E13E800B9DFC7 /* MVVMListViewController.swift in Sources */,
-				0840AD812610E8C0009FCED9 /* MainViewModelProtocol.swift in Sources */,
 				083D74EE25FB58710081CF0F /* BViewController.swift in Sources */,
 				0871BCE72609E93F00F6FB66 /* MVVMListModel.swift in Sources */,
 				08B9428425FB5EBB0014B0E9 /* CThirdViewController.swift in Sources */,
 				083D74F625FB58A70081CF0F /* ToDoListitem.swift in Sources */,
-				0840AD8B2610EC07009FCED9 /* MainModelDelegate.swift in Sources */,
 				083D74B325FB56A80081CF0F /* SceneDelegate.swift in Sources */,
-				0840AD7C2610E841009FCED9 /* MainViewModelDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
