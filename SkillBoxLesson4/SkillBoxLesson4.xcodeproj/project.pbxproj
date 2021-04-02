@@ -21,6 +21,8 @@
 		089CE4242614E51C0025E1C2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089CE4232614E51C0025E1C2 /* ViewModel.swift */; };
 		089CE42C2614E5370025E1C2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089CE42B2614E5370025E1C2 /* TableViewCell.swift */; };
 		089CE4322614E5B00025E1C2 /* MVVMAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089CE4312614E5B00025E1C2 /* MVVMAViewController.swift */; };
+		08B501712617732D0048A40B /* MainDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B501702617732D0048A40B /* MainDelegate.swift */; };
+		08B501762617734C0048A40B /* CellViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B501752617734C0048A40B /* CellViewModelDelegate.swift */; };
 		08B9427425FB5E890014B0E9 /* CFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9427325FB5E890014B0E9 /* CFirstViewController.swift */; };
 		08B9427C25FB5EA40014B0E9 /* CSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9427B25FB5EA40014B0E9 /* CSecondViewController.swift */; };
 		08B9428425FB5EBB0014B0E9 /* CThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B9428325FB5EBB0014B0E9 /* CThirdViewController.swift */; };
@@ -68,6 +70,8 @@
 		089CE4232614E51C0025E1C2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		089CE42B2614E5370025E1C2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		089CE4312614E5B00025E1C2 /* MVVMAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAViewController.swift; sourceTree = "<group>"; };
+		08B501702617732D0048A40B /* MainDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDelegate.swift; sourceTree = "<group>"; };
+		08B501752617734C0048A40B /* CellViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModelDelegate.swift; sourceTree = "<group>"; };
 		08B9427325FB5E890014B0E9 /* CFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFirstViewController.swift; sourceTree = "<group>"; };
 		08B9427B25FB5EA40014B0E9 /* CSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSecondViewController.swift; sourceTree = "<group>"; };
 		08B9428325FB5EBB0014B0E9 /* CThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CThirdViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 		080809BC260900620079D25E /* MVVMAViewController */ = {
 			isa = PBXGroup;
 			children = (
+				08B5016F2617731B0048A40B /* Protocol */,
 				0871BCE52609E92D00F6FB66 /* Model */,
 				0871BCE32609E92000F6FB66 /* ViewModel */,
 				089CE4302614E54C0025E1C2 /* Controller */,
@@ -261,6 +266,15 @@
 				089CE4312614E5B00025E1C2 /* MVVMAViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		08B5016F2617731B0048A40B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				08B501702617732D0048A40B /* MainDelegate.swift */,
+				08B501752617734C0048A40B /* CellViewModelDelegate.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		3FA68CB9C1F6DB98CAD6C024 /* Pods */ = {
@@ -524,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B501762617734C0048A40B /* CellViewModelDelegate.swift in Sources */,
 				08B942E625FBBD4F0014B0E9 /* AViewController.swift in Sources */,
 				08B9427425FB5E890014B0E9 /* CFirstViewController.swift in Sources */,
 				080C777C2610946200436F70 /* MVCListModel.swift in Sources */,
@@ -533,6 +548,7 @@
 				089CE41F2614E4EE0025E1C2 /* Model.swift in Sources */,
 				089CE4322614E5B00025E1C2 /* MVVMAViewController.swift in Sources */,
 				083D74EE25FB58710081CF0F /* BViewController.swift in Sources */,
+				08B501712617732D0048A40B /* MainDelegate.swift in Sources */,
 				08B9428425FB5EBB0014B0E9 /* CThirdViewController.swift in Sources */,
 				089CE42C2614E5370025E1C2 /* TableViewCell.swift in Sources */,
 				083D74F625FB58A70081CF0F /* ToDoListitem.swift in Sources */,

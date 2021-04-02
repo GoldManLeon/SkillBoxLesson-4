@@ -10,30 +10,32 @@ import Alamofire
 
  class MVVMAViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
 
-       @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
+
+    var viewModel: ViewModel?
     
-    
-    var viewModel = ViewModel()
+    var modelDelegate: MainDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel.vc = self
-//        viewModel.getAllModelDataAf{ result in
-//            self.viewModel.name = result
-//            self.tableView.reloadData()
-//
-//        }
+        modelDelegate = ViewModel() as! MainDelegate
+        viewModel?.getAllModelData()
+        tableView.delegate = self
+        tableView.dataSource = self
     }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.name.count
+        return modelDelegate?.numberOrRows() ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
-        cell.viewModel = viewModel.name[indexPath.row]
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? TableViewCell
+        guard let tableViewCell = cell, let viewModel = modelDelegate else { return UITableViewCell()}
+        tableViewCell.viewModel = viewModel.cellIndexPath(for: indexPath) as! CellViewModel
+        return tableViewCell
     }
     
- }
+
+}
+
 
