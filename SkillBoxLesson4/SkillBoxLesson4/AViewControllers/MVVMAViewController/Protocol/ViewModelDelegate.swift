@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol MainDelegate{
+protocol ViewModelDelegate{
     func numberOrRows() -> Int
-    func cellIndexPath(for indexPath: IndexPath) -> CellViewModelDelegate?
+    func cellViewModel(for indexPath: Int) -> Model?
 }

@@ -11,31 +11,27 @@ import Alamofire
  class MVVMAViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
 
     @IBOutlet weak var tableView: UITableView!
-
-    var viewModel: ViewModel?
     
-    var modelDelegate: MainDelegate?
+    var viewModel = ViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        modelDelegate = ViewModel() as! MainDelegate
-        viewModel?.getAllModelData()
-        tableView.delegate = self
-        tableView.dataSource = self
+        viewModel.getData{ (_) in
+            DispatchQueue.main.async {
+                [weak self] in
+                self?.tableView.reloadData()
+            }
+        }
     }
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return modelDelegate?.numberOrRows() ?? 0
+        return viewModel.numberOfRows()
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? TableViewCell
-        guard let tableViewCell = cell, let viewModel = modelDelegate else { return UITableViewCell()}
-        tableViewCell.viewModel = viewModel.cellIndexPath(for: indexPath) as! CellViewModel
-        return tableViewCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) else { return UITableViewCell()}
+        let selectedIndexPath = viewModel.cellViewModel(for: indexPath.row)
+        cell.textLabel?.text = "\(selectedIndexPath!.name)"
+        return cell
     }
-    
-
 }
-
-
