@@ -1,8 +1,7 @@
 import UIKit
 import Alamofire
 
-
- class AViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class AViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
 
      // MARK: - IBOutlet
      
@@ -18,9 +17,9 @@ import Alamofire
          super.viewDidLoad()
          tableView.delegate = self
          tableView.dataSource = self
-        setLabelsForData{ (result) in
-            self.name = result
-            self.tableView.reloadData()
+         setLabelsForData{ (result) in
+         self.name = result
+         self.tableView.reloadData()
         }
      }
     

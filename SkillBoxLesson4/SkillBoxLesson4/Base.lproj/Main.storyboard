@@ -384,7 +384,7 @@
         <!--MVVM BlackStar-->
         <scene sceneID="uKp-pf-Fsi">
             <objects>
-                <viewController id="qxY-lA-jwN" customClass="ListViewController" customModule="SkillBoxLesson4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qxY-lA-jwN" customClass="MVVMAViewController" customModule="SkillBoxLesson4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NQG-qF-Zwl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -394,13 +394,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="LHc-Nm-ean" customClass="MVCATableViewCell" customModule="SkillBoxLesson4" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellForMVVMA" id="LHc-Nm-ean" customClass="MVVMATableViewCell" customModule="SkillBoxLesson4" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LHc-Nm-ean" id="PHA-Mi-HEm">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgg-0U-t9K">
+                                                    <rect key="frame" x="32" y="11" width="108" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="label" destination="sgg-0U-t9K" id="6xl-Ag-LGC"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -410,7 +422,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="MVVM BlackStar" id="0QX-5G-hF6"/>
                     <connections>
-                        <outlet property="tableView" destination="4h8-40-Nds" id="fOd-AV-NO2"/>
+                        <outlet property="tableView" destination="4h8-40-Nds" id="TB0-HM-l5A"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ijV-lG-dRd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
