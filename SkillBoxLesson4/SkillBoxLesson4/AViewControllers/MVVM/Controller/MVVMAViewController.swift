@@ -5,17 +5,17 @@ class MVVMAViewController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet weak var tableView: UITableView!
     
     var viewModel: ViewModelDelegate?
-    
-    var secondViewModel: ViewModel?
-    
-    var nameViewModel: ViewModel?
-    
+    var nameOfViewModel: ViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
         viewModel = ViewModel()
+        nameOfViewModel?.setLabelsForData{ (result) in
+            self.nameViewModel?.name = result
+            self.tableView.reloadData()
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
