@@ -7,7 +7,8 @@ class MVVMAViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     // MARK: - Variables
     var viewModel: ViewModelDelegate?
-    var nameOfViewModel: ViewModel?
+    var nameViewModel: ViewModel?
+    var name: [String] = [ ]
     
     // MARK: - Life Cycle
     override func viewDidLoad() {
@@ -15,8 +16,8 @@ class MVVMAViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tableView.delegate = self
         tableView.dataSource = self
         viewModel = ViewModel()
-        nameOfViewModel?.setLabelsForData{ (result) in
-            self.nameViewModel?.name = result
+        nameViewModel?.setLabelsForData{ result in
+            self.name = result
             self.tableView.reloadData()
         }
     }
@@ -27,10 +28,11 @@ class MVVMAViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellForMVVMA", for: indexPath) as? TableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? TableViewCell
         guard let tableViewCell = cell, let viewModel = viewModel else { return UITableViewCell()}
-        tableViewCell.viewModel = viewModel.cellViewModel(for: indexPath)
+        let cellViewModel = viewModel.cellViewModel(for: indexPath)
+        tableViewCell.viewModel = cellViewModel
         return tableViewCell
     }
-    
 }
+
